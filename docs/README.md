@@ -19,6 +19,3 @@ I am a computer science graduate with a passion for building innovative web appl
 ## Contact Me
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/chaz-arvizu-11816b2a2) or take a look at my [GitHub](https://github.com/ChazArvizu) repo!
 
----
-
-[View My Resume](/resume.md) | [View My Projects](/projects/)
