@@ -12,7 +12,9 @@ I am a computer science graduate with a passion for building innovative web appl
 - **GPA**: 3.370
 
 ## Featured Projects
-- **[LiftJourn](./projects/liftjourn.md)**: Full Stack Web Application
+- **[LiftJourn](./projects/liftjourn.md)**: Full stack web application that allows users to create workout routines, track their workouts, and interact with friends. LiftJourn provides the user with a easy to use and convenient way to keep track of their workouts and see their progress.
+
+- **[Gym Rat](./projects/gymrat.md)**:
 
 ## Contact Me
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/chaz-arvizu-11816b2a2) or take a look at my [GitHub](https://github.com/ChazArvizu) repo!
