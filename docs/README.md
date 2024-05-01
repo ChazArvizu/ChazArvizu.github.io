@@ -5,17 +5,18 @@ I am a computer science graduate with a passion for building innovative web appl
 
 ## Education
 - **B.S. Computer Science**: California State University, Long Beach
-- **Acknowledgments**: 
+- **Acknowledgments**
+    - Fall 2021: President's List
+    - Spring 2022: Deans' List
+    - Fall 2022: Initiated into Tau Beat Pi - Engineering Honor Society
 - **GPA**: 3.370
 
 ## Featured Projects
-- **Project 1**: Description and link
-- **Project 2**: Description and link
-- **Project 3**: Description and link
+- **[LiftJourn](./projects/liftjourn.md)**: Full Stack Web Application
 
 ## Contact Me
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/chaz-arvizu-11816b2a2) or take a look at my [GitHub](https://github.com/ChazArvizu) repo!
 
 ---
 
-[View My Resume](/resume/) | [View My Projects](/projects/)
+[View My Resume](/resume.md) | [View My Projects](/projects/)
