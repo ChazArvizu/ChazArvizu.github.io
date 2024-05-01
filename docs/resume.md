@@ -8,7 +8,7 @@ GPA: 3.370
 September 2018 - December 2023  
 
 ## Projects
-**Senior Design Class - Gym Rat - Mobile/Web App**
+**Senior Design Class - [Gym Rat](./projects/gymrat.md) - Mobile/Web App**
 - Created a mobile app using Flutter and Firebase for iOS and Android platforms.
 - Practiced agile development with SCRUM methodology and managed sprints and issues in JIRA.
 - Collaborated with team members to tackle challenges and divide tasks effectively.
@@ -44,4 +44,4 @@ Expand knowledge of software engineering and the application of software. Gain w
 Algorithms, Search Engine Technology, Data Structures, Database Fundamentals, Object-Oriented Programming, Networks & Distributed Computing, Computer Security
 
 ## Skills
-Python, Dart, C++, C#, C, HTML, CSS, JavaScript, Java, Django, SQL, Relational Database Design, Django REST framework, Vue.js, NoSQL, Flutter Flow, Firebase, Git Command Line, GitHub Desktop, Windows 10/11, Linux Mint (Ubuntu)
+Python, Dart, C++, C#, C, HTML, CSS, JavaScript, Java, Django, SQL, Markdown, Relational Database Design, Django REST framework, Vue.js, Vuepress, NoSQL, Flutter Flow, Firebase, Jira, Git Command Line, GitHub Desktop, Windows 10/11, Linux Mint (Ubuntu)

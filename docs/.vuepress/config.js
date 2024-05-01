@@ -15,12 +15,11 @@ export default defineUserConfig({
       {
         text: 'Projects',
         children: [
-          // { text: 'Projects Home', link: '/projects/' },
-          { text: 'LiftJourn', link: '/projects/liftjourn.md' },
-          { text: 'Gym Rat', link: '/projects/gymrat.md' },
+          '/projects/liftjourn.md',
+          '/projects/gymrat.md',
         ],
       },
-      // { text: 'Contact', link: '/contact/' },
+      
     ],
   }),
 
