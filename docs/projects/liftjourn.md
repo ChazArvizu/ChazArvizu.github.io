@@ -1,8 +1,8 @@
-LiftJourn (Not yet deployed)
+LiftJourn (Beta Version Now Deployed!)
 ====
 
 ## Website
-[liftjourn.com](http://www.liftjourn.com/) (This link will take you to a default website where I purchased the domain)
+[liftjourn.com](https://www.liftjourn.com/)
 
 ## Description
 LiftJourn is a web application that allows users to create workout routines, track their workouts, and view with their friend's workouts. LiftJourn provides the user with an easy to use and convenient way to keep track of their workouts to see their progress over time. LiftJourn will have both a free and paid version available to users. The paid version will allow more functionality and statical analysis. I have designed and developed this application all as a solo developer, leaning both Django and Vue.js as I develop the application.
@@ -19,7 +19,7 @@ LiftJourn is a web application that allows users to create workout routines, tra
   - PostgreSQL is the best supported backend for Django. It offers a wide range of advanced features, including support for complex queries, indexing, full-text search, and JSON data types.
 
 - **Deployment**: Digital Ocean
-  - DigitalOcean offers competitive pricing, with a straightforward pricing model that includes transparent pricing for all services. It also provides simple documentation, making it easy for developers to set up and manage servers, databases, and other cloud infrastructure components. I wa originally going to use AWS, but the Digital Ocean pricing scheme seemed more straight forward and forgiving
+  - DigitalOcean offers competitive pricing, with a straightforward pricing model that includes transparent pricing for all services. It also provides simple documentation, making it easy for developers to set up and manage servers, databases, and other cloud infrastructure components. On Digital Ocean I will be using their app platform to deploy my application, I followed the django [documentation here](https://docs.digitalocean.com/developer-center/deploy-a-django-app-on-app-platform/) to initially setup my backend. I then added a static site to serve my frontend via a Content Delivery Network (CDN). The app platform provides a simple way for deploying code via github, as a developer all you have to do is push your changes to the main branch and digital ocean will automatically build and redeploy your changes, this promotes a much more agile development process by streamlining the deployment process.
 
 ## Services
 - **Github**: Version control system. All my code is uploaded to a private github repository.
