@@ -16,6 +16,7 @@ export default defineUserConfig({
     navbar: [
       { text: 'Home', link: '/' },
       { text: 'Resume', link: '/resume.md' },
+      { text: 'LorenzAttractor', link: '/lorenz.md' },
       {
         text: 'Projects',
         children: [
