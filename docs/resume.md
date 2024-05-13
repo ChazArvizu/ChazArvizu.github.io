@@ -12,18 +12,19 @@ September 2018 - December 2023
 ## Projects
 **Senior Design Class - [Gym Rat](./projects/gymrat.md) - Mobile/Web App**
 - Created a mobile app using Flutter and Firebase for iOS and Android platforms.
-- Practiced agile development with SCRUM methodology and managed sprints and issues in JIRA.
+- Practiced agile development with SCRUM methodology and managed sprints and issues in the project management software JIRA.
 - Collaborated with team members to tackle challenges and divide tasks effectively.
 
 **[LiftJourn](/projects/liftjourn.md) - Full Stack Web Application**
 - Developed a full-stack web application using Django and Vue.js, incorporating features such as user authentication, exercise tracking, and workout routine management.
-- Implemented RESTful APIs with Django REST framework for frontend-backend communication.
-- Utilized Django's ORM to interact with relational databases, including defining models, querying data, and managing database relationships.
+- Implemented RESTful APIs with Django REST framework for frontend to backend communication between Django web server and a static Vue.js frontend.
+- Utilized DigitalOcean App platform to deploy and manage the LiftJourn Application.
+- Overcame technical challenges such as user authentication via Json Web Tokens and securely handling them, demonstrating problem-solving skills and technical expertise.
 
 **Boolean/Ranked Query Search Engine**
-- Utilized Python skills to create a program that uses boolean and ranked retrieval algorithms on a corpus of documents.
-- Learned how to research and find solutions when encountering problems.
-- Utilized knowledge of algorithms and data structures to optimize code.
+- Developed a Python program utilizing Boolean and ranked retrieval algorithms to efficiently search a corpus of documents.
+- Demonstrated problem-solving skills by researching and implementing optimal algorithms and data structures.
+- Optimized code performance through algorithmic and data structure optimizations.
 
 ## Experience
 **Tau Beta PI - Vice President**  
@@ -46,4 +47,4 @@ Expand knowledge of software engineering and the application of software. Gain w
 Algorithms, Search Engine Technology, Data Structures, Database Fundamentals, Object-Oriented Programming, Networks & Distributed Computing, Computer Security
 
 ## Skills
-Python, Dart, C++, C#, C, HTML, CSS, JavaScript, Java, Django, SQL, Markdown, Relational Database Design, Django REST framework, Vue.js, Vuepress, NoSQL, Flutter Flow, Firebase, Jira, Git Command Line, GitHub Desktop, Windows 10/11, Linux Mint (Ubuntu)
+Python, Dart, C++, C#, C, HTML, CSS, Javascript, Java, Django, DigitalOcean, SQL, PostgreSQL, Relational Database Design, Django, Django REST framework, Vue.js, Vuepress, Markdown, NoSQL, Flutter Flow, Firebase, Git Command Line, GitHub Desktop, Windows 10/11, Linux Mint
