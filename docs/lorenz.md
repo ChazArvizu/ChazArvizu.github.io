@@ -7,8 +7,7 @@ Lorenz Attractor
 
 To create this animation in javascript I followed the steps in the video [found here](https://www.youtube.com/watch?v=AwlOq242GgI&t). I only had to make some small adjustments in the code to get the correct styling, size ratios and to get the animation to work with VuePress' template syntax. 
 
-I took inspiration to create this little animation from a youtuber by the name of Veritasium found in his video about [chaos theory](https://www.youtube.com/watch?v=fDek6cYijxI). This video sparked my curiosity of chaos theory and how small changes to an equations inputs can drastically change the output of a system. This sort of behavior is present in our everyday life and takes shape in whatever decisions we make whether they are big or small. Chaotic equations are 
-
+I took inspiration to create this little animation from a youtuber by the name of Veritasium, as seen in his video about [chaos theory](https://www.youtube.com/watch?v=fDek6cYijxI). This video sparked my curiosity about chaos theory and how small changes to the inputs of an equation can drastically change the output of a system. This sort of behavior is present in our everyday life and takes the shape of whatever decisions we make, whether they are big or small. Our decisions are what define us, and chaotic equations offer a special way of mapping such behavior. 
 
 Again, the code below was adapted from the video [found here](https://www.youtube.com/watch?v=AwlOq242GgI&t).
 ```vue
