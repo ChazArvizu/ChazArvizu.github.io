@@ -1,4 +1,4 @@
-LiftJourn (Beta Version Now Deployed!)
+LiftJourn (Beta Version Now Deployed :tada:)
 ====
 
 ## Website
