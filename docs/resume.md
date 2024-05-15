@@ -27,7 +27,7 @@ September 2018 - December 2023
 - Optimized code performance through algorithmic and data structure optimizations.
 
 ## Experience
-**Tau Beta PI - Vice President**  
+**Tau Beta PI - Engineering Honor Society - Vice President**  
 November 2022 - December 2023  
 - Helped lead the on-campus Engineering Honors Society as second in command.
 - Planned for events that occurred on and off-campus by working with both the school and other officers of Tau Beta Pi.

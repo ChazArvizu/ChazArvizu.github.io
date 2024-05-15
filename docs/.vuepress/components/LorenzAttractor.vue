@@ -60,7 +60,7 @@ export default {
                 const map = ({ x, y, z }) => {
                     // Apply rotation around the new center point
                     const xx = (x - rotationCenterX) * Math.cos(q) - (y - rotationCenterY) * Math.sin(q) + rotationCenterX;
-                    const yy = z;
+                    const yy = canvas.height / 9 + z;
 
                     // Clip to canvas bounds
                     const xClipped = Math.max(0, Math.min(canvas.width, xx));
@@ -85,7 +85,7 @@ export default {
                 extendPath(path, 10);
                 const scaled = scale(path, 600, 0.2);
                 draw(scaled);
-                while (path.length > 1000) path.shift();
+                while (path.length > 1600) path.shift();
                 setTimeout(step, 1000 / 60);
             }
             step();
