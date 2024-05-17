@@ -16,7 +16,8 @@ export default defineUserConfig({
     navbar: [
       { text: 'Home', link: '/' },
       { text: 'Resume', link: '/resume.md' },
-      { text: 'LorenzAttractor', link: '/lorenz.md' },
+      { text: 'Lorenz Attractor', link: '/lorenz.md' },
+      { text: 'Solar System', link: '/solarsystem.md' },
       {
         text: 'Projects',
         children: [
@@ -31,6 +32,7 @@ export default defineUserConfig({
   plugins: [
     registerComponentsPlugin({
       LorenzAttractor: path.resolve(__dirname, './components/LorenzAttractor.vue'),
+      SolarSystem: path.resolve(__dirname, './components/SolarSystem.vue'),
     }),
   ],
 
