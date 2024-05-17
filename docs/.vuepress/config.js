@@ -16,13 +16,8 @@ export default defineUserConfig({
     navbar: [
       { text: 'Home', link: '/' },
       { text: 'Resume', link: '/resume.md' },
-      {
-        text: 'Interesting Visuals',
-        children: [
-          '/lorenz.md',
-          '/solarsystem.md',
-        ],
-      },
+      { text: 'Lorenz Attractor', link: '/lorenz.md' },
+      { text: 'Solar System', link: '/solarsystem.md' },
       {
         text: 'Projects',
         children: [
@@ -30,7 +25,7 @@ export default defineUserConfig({
           '/projects/gymrat.md',
         ],
       },
-
+      
     ],
   }),
 
@@ -38,7 +33,6 @@ export default defineUserConfig({
     registerComponentsPlugin({
       LorenzAttractor: path.resolve(__dirname, './components/LorenzAttractor.vue'),
       SolarSystem: path.resolve(__dirname, './components/SolarSystem.vue'),
-      ClientOnlyWrapper: path.resolve(__dirname, './components/ClientOnlyWrapper.vue'),
     }),
   ],
 
