@@ -1,4 +1,4 @@
-Solar System
+Solar System Simulation
 =====
 
 <SolarSystem></SolarSystem>

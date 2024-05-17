@@ -16,8 +16,13 @@ export default defineUserConfig({
     navbar: [
       { text: 'Home', link: '/' },
       { text: 'Resume', link: '/resume.md' },
-      { text: 'Lorenz Attractor', link: '/lorenz.md' },
-      { text: 'Solar System', link: '/solarsystem.md' },
+      {
+        text: 'Interesting Visuals',
+        children: [
+          '/lorenz.md',
+          '/solarsystem.md',
+        ],
+      },
       {
         text: 'Projects',
         children: [
@@ -25,7 +30,7 @@ export default defineUserConfig({
           '/projects/gymrat.md',
         ],
       },
-      
+
     ],
   }),
 
