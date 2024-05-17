@@ -9,7 +9,6 @@
 </template>
 
 <script>
-import p5 from 'p5';
 
 export default {
     name: 'SolarSystem',
@@ -32,7 +31,7 @@ export default {
                 let sun;
                 const G = 20;
                 const destabilise = 0.15;
-                const canvasWidthPercentage = 0.90;
+                const canvasWidthPercentage = 1;
                 let canvasWidth;
 
                 p.setup = () => {
@@ -130,15 +129,20 @@ export default {
         }
     },
     mounted() {
-        this.updateContainerWidth();
-        this.resizeObserver = new ResizeObserver(entries => {
-            for (let entry of entries) {
-                if (entry.target === this.$refs.outerContainer) {
-                    this.updateContainerWidth();
-                }
-            }
-        });
-        this.resizeObserver.observe(this.$refs.outerContainer);
+        if (typeof window !== 'undefined') {
+            import('p5').then((p5) => {
+                this.p5 = p5.default;
+                this.updateContainerWidth();
+                this.resizeObserver = new ResizeObserver(entries => {
+                    for (let entry of entries) {
+                        if (entry.target === this.$refs.outerContainer) {
+                            this.updateContainerWidth();
+                        }
+                    }
+                });
+                this.resizeObserver.observe(this.$refs.outerContainer);
+            });
+        }
     },
     beforeUnmount() {
         if (this.sketch) {
@@ -155,6 +159,7 @@ export default {
 .outer-container {
     width: 100%;
 }
+
 #solar-system-container {
     margin: 0 auto;
     text-align: center;
