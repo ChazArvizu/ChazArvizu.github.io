@@ -1,6 +1,7 @@
 # Resume
 
-[Download my resume](/Chaz_Arvizu_Resume.pdf)
+## Download
+[Download My Resume Here!](/Chaz_Arvizu_Resume.pdf)
 
 <h1>Chaz Arvizu - Computer Science Graduate</h1>
 

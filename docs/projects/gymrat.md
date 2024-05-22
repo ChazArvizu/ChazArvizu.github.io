@@ -1,11 +1,35 @@
-Gym Rat
+Gym Rat (Senior Design Class)
 ======
 
+## Production Date
+**Start**: January 2023 (Spring Semester) 
+
+**End**: December 2023 (Fall Semester)
+
+
 ## Description
-Gym Rat is a multi platform application that allows users to track both their meals and workouts in one convenient app. This application was developed with a team of five developers, counting me, in the span of two semesters. We used the technologies Flutter and Firebase which helped to tremendously streamline our development process.
+Gym Rat is a multi platform application that allows users to track both their meals and workouts in one convenient app. This application was developed with a team of five developers, including myself, in the time span of two semesters. We used the technologies Flutter and Firebase which helped to tremendously streamline our development process in creating a multi-platform application.
 
 ## Development Process
-The first semester we took a waterfall approach to development by creating all the necessary documentation before we began implementation. We created a Class Diagram, Use Cases, System Requirement Specification, Sequence Diagrams and a UML diagram. All of these documents helped to improve our development process in the second semester by ensuring the team had a good idea of how each feature should be implemented. In the second semester we took an agile approach to development and utilized SCRUM as our development framework. We created a backlog of which consisted of user stories, and bugs; we created sprints and held daily stand ups, where the professor acted as SCRUM Master; at the end of each sprint we had a sprint review; and before each sprint we would have a sprint planning day. By utilizing this development process we were able to successfully complete the application in an organized manner.
+
+### First Semester: Waterfall Approach
+The first semester we took a waterfall approach to development by creating all the necessary documentation before we began implementation. 
+**Created Documentation**
+- **Class Diagram:** Defined the structure and relationships of the classes within the application, helping us understand how different parts of the system interact.
+- **Use Cases:** Detailed the interactions between users and the system, ensuring all user requirements were captured.
+- **System Requirement Specification:** Outlined the functional and non-functional requirements, providing a clear scope for development.
+- **Sequence Diagrams:** Illustrated how objects interact in a particular sequence, clarifying the flow of operations for each feature.
+- **UML diagram:** Offered a visual representation of the system's architecture, aiding in better planning and communication among team members.
+
+All of these different documents helped to improve our development process in the second semester by ensuring the team had a good idea of how each feature should be implemented.
+
+### Second Semester: Agile Approach (SCRUM Framework)
+In the second semester we took an agile approach to development and utilized SCRUM as our development framework. 
+- Created a backlog of which consisted of user stories, and bugs encountered during development.
+- Planned sprints and held daily stand ups, where the professor acted as SCRUM Master.
+- Conducted a sprint reviews and sprint planning sessions. 
+
+This structured development process enabled us to complete the application efficiently and in an organized manner.
 
 ## Technologies
 
@@ -17,7 +41,7 @@ The first semester we took a waterfall approach to development by creating all t
 
 ## Services
 - **Jira**: Project management software that helped us plan sprints and assign tasks.
-- **Github**: Version control system
+- **Github**: Version control system.
 
 ## Features
 - User authentication and authorization
