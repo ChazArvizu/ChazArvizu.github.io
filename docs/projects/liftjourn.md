@@ -8,9 +8,11 @@ LiftJourn (Beta Version Now Deployed :tada:)
 [www.liftjourn.com](https://www.liftjourn.com/)
 
 ## Production Date
-**Start**: March 2024
+**Start:** March 2024
 
-**End**: Production Still In Progress
+- **Beta Deployed:** May 2024
+
+**End:** Production Still In Progress
 
 ## Description
 LiftJourn is a web application that allows users to create workout routines, track their workouts, and view their friend's completed workouts. LiftJourn provides the user with an easy to use and convenient way to keep track of their workouts to see their progress over time. LiftJourn will have both a free version and a premium version available to users. The premium version will allow more functionality and statical analysis. I have designed and developed this application all as a solo developer, leaning both Django and Vue.js as I develop the application.
