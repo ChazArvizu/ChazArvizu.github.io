@@ -13,23 +13,24 @@ Gym Rat is a multi platform application that allows users to track both their me
 ## Development Process
 
 ### First Semester: Waterfall Approach
-The first semester we took a waterfall approach to development by creating all the necessary documentation before we began implementation. 
-**Created Documentation**
+The first semester we took the waterfall approach to development, which included us creating all the necessary documentation before we began implementation. 
+
+**Created Documentation:**
 - **Class Diagram:** Defined the structure and relationships of the classes within the application, helping us understand how different parts of the system interact.
 - **Use Cases:** Detailed the interactions between users and the system, ensuring all user requirements were captured.
 - **System Requirement Specification:** Outlined the functional and non-functional requirements, providing a clear scope for development.
 - **Sequence Diagrams:** Illustrated how objects interact in a particular sequence, clarifying the flow of operations for each feature.
 - **UML diagram:** Offered a visual representation of the system's architecture, aiding in better planning and communication among team members.
 
-All of these different documents helped to improve our development process in the second semester by ensuring the team had a good idea of how each feature should be implemented.
+All of these different documents helped to improve our development process in the second semester by ensuring each member on the team was in agreement of how each feature should be implemented.
 
 ### Second Semester: Agile Approach (SCRUM Framework)
 In the second semester we took an agile approach to development and utilized SCRUM as our development framework. 
 - Created a backlog of which consisted of user stories, and bugs encountered during development.
 - Planned sprints and held daily stand ups, where the professor acted as SCRUM Master.
-- Conducted a sprint reviews and sprint planning sessions. 
+- Conducted sprint reviews and sprint planning sessions.
 
-This structured development process enabled us to complete the application efficiently and in an organized manner.
+This structured development process enabled us to complete the application quickly and efficiently in an organized manner.
 
 ## Technologies
 
