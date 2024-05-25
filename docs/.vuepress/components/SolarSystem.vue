@@ -2,7 +2,7 @@
   <div ref="outerContainer" class="outer-container">
     <div id="solar-system-container" ref="container"></div>
     <div>
-      <label for="numPlanets">Number of Planets: </label>
+      <label for="numPlanets"><b>Number of Planets:</b></label>
       <input id="numPlanets" type="number" v-model="numPlanets" min="1" max="7">
     </div>
   </div>
@@ -36,19 +36,21 @@ export default {
         let canvasWidth;
 
         p.setup = () => {
+          p.colorMode(p.HSB, 360, 100, 100); // Set color mode to HSB
           canvasWidth = this.containerWidth * canvasWidthPercentage;
           const canvasHeight = 400;
           const canvas = p.createCanvas(canvasWidth, canvasHeight);
           canvas.parent(this.$refs.container);
-          sun = new Body(16, p.createVector(0, 0), p.createVector(0, 0), p.color(255, 204, 0));
+          sun = new Body(16, p.createVector(0, 0), p.createVector(0, 0), p.color(55, 100, 100)); // Bright yellow for the sun
 
           // Initialize the planets
           for (let i = 0; i < this.numPlanets; i++) {
             const mass = p.random(4, 7);
-            const radius = p.random(sun.d, Math.min(canvasWidth / 4, canvasHeight / 4));
+            // Increase the minimum value for the radius
+            const radius = p.random(sun.d * 2, Math.min(canvasWidth / 2, canvasHeight / 2));
             const angle = p.random(0, p.TWO_PI);
             const planetPos = p.createVector(radius * p.cos(angle), radius * p.sin(angle));
-            const planetColor = p.color(p.random(255), p.random(255), p.random(255));
+            const planetColor = generateNeonColor();
 
             // Find direction of orbit and set velocity
             let planetVel = planetPos.copy();
@@ -88,9 +90,9 @@ export default {
 
             // Draw the trail
             for (let i = 0; i < this.path.length - 2; i++) {
-              const trailSize = p.map(i, 0, this.path.length - 2, 1, this.d / 2); // Gradually reduce the trail size
+              const trailSize = p.map(i, 0, this.path.length - 2, 1, this.d / 3); // Gradually reduce the trail size
               const alpha = p.map(i, 0, this.path.length - 2, 255, 0); // Fade out the trail
-              p.fill(p.red(this.color), p.green(this.color), p.blue(this.color), alpha);
+              p.fill(p.hue(this.color), p.saturation(this.color), p.brightness(this.color), alpha);
               p.ellipse(this.path[i].x, this.path[i].y, trailSize, trailSize);
             }
 
@@ -121,6 +123,13 @@ export default {
             child.applyForce(f);
           }
         }
+
+        const generateNeonColor = () => {
+          const hue = p.random(0, 360); // Full range of hues
+          const saturation = 100; // Full saturation for bright colors
+          const brightness = 100; // Full brightness for neon effect
+          return p.color(hue, saturation, brightness);
+        };
 
         p.windowResized = () => {
           canvasWidth = this.containerWidth * canvasWidthPercentage;
