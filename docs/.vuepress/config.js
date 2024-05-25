@@ -17,20 +17,19 @@ export default defineUserConfig({
       { text: 'Home', link: '/' },
       { text: 'Resume', link: '/resume.md' },
       {
-        text: 'Animated Programs',
-        children: [
-          '/lorenz.md',
-          '/solarsystem.md',
-        ],
-      },
-      {
         text: 'Projects',
         children: [
           '/projects/liftjourn.md',
           '/projects/gymrat.md',
         ],
       },
-      
+      {
+        text: 'Live Browser Animations',
+        children: [
+          '/lorenz.md',
+          '/solarsystem.md',
+        ],
+      },
     ],
   }),
 

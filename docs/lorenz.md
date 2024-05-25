@@ -5,10 +5,25 @@ Lorenz Attractor
 
 "The flapping of the wings of a butterfly can be felt on the other side of the world."
 
-To create this animation in javascript I followed the steps in the video [found here](https://www.youtube.com/watch?v=AwlOq242GgI&t). I only had to make some small adjustments in the code to get the correct styling, size ratios and to get the animation to work with VuePress' template syntax. 
+## Introduction
+I was inspired to create this animation by a YouTuber named Veritasium, as seen in his video about [chaos theory](https://www.youtube.com/watch?v=fDek6cYijxI). The video sparked my curiosity about how small changes in the inputs of an equation can drastically alter the system's output. This behavior is evident in our daily lives, influencing our decisions, whether big or small. Chaotic equations offer a unique way of mapping such behavior.
 
-I took inspiration to create this little animation from a youtuber by the name of Veritasium, as seen in his video about [chaos theory](https://www.youtube.com/watch?v=fDek6cYijxI). This video sparked my curiosity about chaos theory and how small changes to the inputs of an equation can drastically change the output of a system. This sort of behavior is present in our everyday life and takes the shape of whatever decisions we make, whether they are big or small. Our decisions are what define us, and chaotic equations offer a special way of mapping such behavior. 
+## Technical Details
+To create this animation in JavaScript, I followed the steps in the video [found here](https://www.youtube.com/watch?v=AwlOq242GgI&t). I made some adjustments to the code for correct styling, size ratios, and to integrate it with VuePress' template syntax. 
 
+Here are some specific challenges I faced and how I resolved them:
+- **Compatibility**: To get the Vue.js component to work with VuePress, some extra configurations were required in order to register it properly. In the config.js file I had to add the following code:
+
+```js
+plugins: [
+    registerComponentsPlugin({
+      LorenzAttractor: path.resolve(__dirname, './components/LorenzAttractor.vue'),
+    })
+],
+```
+- **Styling Adjustments**: Ensuring the animation looks good within the constraints of VuePress required tweaking the CSS and layout.
+
+## Source Code
 Again, the code below was adapted from the video [found here](https://www.youtube.com/watch?v=AwlOq242GgI&t).
 ```vue
 <template>
