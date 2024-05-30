@@ -20,7 +20,7 @@ LiftJourn is a web application that allows users to create workout routines, tra
 ## Technologies
 
 - **Frontend**: Vue.js
-  - Vue.js is a JavaScript framework for building user interfaces.  I chose Vue.js for LiftJourn due to its popularity, ease of learning, and the vibrant community backing it. Additionally, Vue.js offers excellent documentation and tooling, making it a great choice for rapid development. My Vue.js frontend consumes the Django REST API, which serves as the backend infrastructure for LiftJourn.
+  - Vue.js is a JavaScript framework for building user interfaces. I chose Vue.js for LiftJourn due to its popularity, ease of learning, and the vibrant community backing it. Additionally, Vue.js offers excellent documentation and tooling, making it a great choice for rapid development. My Vue.js frontend consumes the Django REST API, which serves as the backend infrastructure for LiftJourn.
 
 - **Backend**: Django
   - Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Django also offers great documentation along with many online resources for learning the framework. I use the django REST framework as my backend API which is consumed by my Vue.js frontend. 

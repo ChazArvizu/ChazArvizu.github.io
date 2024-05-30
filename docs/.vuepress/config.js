@@ -37,6 +37,7 @@ export default defineUserConfig({
     registerComponentsPlugin({
       LorenzAttractor: path.resolve(__dirname, './components/LorenzAttractor.vue'),
       SolarSystem: path.resolve(__dirname, './components/SolarSystem.vue'),
+      ParticleSystem: path.resolve(__dirname, './components/ParticleSystem.vue'),
     }),
   ],
 
