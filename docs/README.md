@@ -1,8 +1,8 @@
 # Welcome to My Portfolio!
-**[Solar System Simulation](./particlesystem.md)**
 
-<LorenzAttractor></LorenzAttractor>
-[Lorenz Attractor](./lorenz.md) - "The flapping of the wings of a butterfly can be felt on the other side of the world."
+<ClientOnly>
+  <StrangerThingsIntro/>
+</ClientOnly>
 
 ## About Me
 Hello my name is Chaz, I am a recent computer science graduate hailing from Southern California. I'm passionate about building web applications, exploring computer security, and mastering new application development frameworks. My skills include Python, C++, Javascript, Vue.js, Django, and much more! In my free time when I'm not coding, I enjoy going to the gym, hiking, body boarding, cooking and gaming. I'm excited about the limitless possibilities of web development and eager to expand my knowledge further in this ever changing field.
@@ -32,5 +32,9 @@ Hello my name is Chaz, I am a recent computer science graduate hailing from Sout
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/chaz-arvizu-11816b2a2) or take a look at my [GitHub](https://github.com/ChazArvizu) repo!
 
 <script setup>
-import LorenzAttractor from '../../components/LorenzAttractor.vue'
+import { defineAsyncComponent } from 'vue';
+
+const StrangerThingsIntro = defineAsyncComponent(() =>
+  import('../../components/StrangerThingsIntro.vue')
+);
 </script>

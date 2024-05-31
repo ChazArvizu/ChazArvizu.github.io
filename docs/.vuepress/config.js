@@ -28,6 +28,7 @@ export default defineUserConfig({
         children: [
           '/lorenz.md',
           '/solarsystem.md',
+          '/strangerthingsintro.md',
         ],
       },
     ],
@@ -37,7 +38,7 @@ export default defineUserConfig({
     registerComponentsPlugin({
       LorenzAttractor: path.resolve(__dirname, './components/LorenzAttractor.vue'),
       SolarSystem: path.resolve(__dirname, './components/SolarSystem.vue'),
-      ParticleSystem: path.resolve(__dirname, './components/ParticleSystem.vue'),
+      StrangerThingsIntro: path.resolve(__dirname, './components/StrangerThingsIntro.vue'),
     }),
   ],
 
