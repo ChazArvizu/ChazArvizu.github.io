@@ -8,7 +8,7 @@ Solar System Simulation
 Explore the wonders of our solar system with this interactive simulation.
 
 ## Introduction
-I have always been fascinated with outer space and its limitless wonders. To capture some of this fascination, I decided to create an interactive solar system simulation. I followed an excellent tutorial, which can be [found here](https://www.youtube.com/watch?v=pgFnZyL8zEA&t=0). The tutorial provided the necessary JavaScript for the simulation, but additional steps were required to integrate it into VuePress 2.
+I have always been fascinated with outer space and its limitless possibilities it provides for our future. To capture some of this fascination, I decided to create an interactive solar system simulation. I followed an excellent tutorial, which can be [found here](https://www.youtube.com/watch?v=pgFnZyL8zEA&t=0). The tutorial provided the necessary JavaScript for the simulation, but additional steps were required to make additional customizations integrate it into VuePress 2.
 
 ## Technical Details
 Implementing this component required several configurations to ensure it runs smoothly on VuePress 2. Here are the additional problems that needed solving:

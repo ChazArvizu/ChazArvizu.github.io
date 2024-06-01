@@ -28,6 +28,8 @@ Hello my name is Chaz, I am a recent computer science graduate hailing from Sout
 
 - **[Solar System Simulation](./solarsystem.md)**: I have always been fascinated with outer space and its limitless wonders. To capture some of this fascination, I decided to create an interactive solar system simulation. I followed an excellent tutorial, which can be [found here](https://www.youtube.com/watch?v=pgFnZyL8zEA&t=0). The tutorial provided the necessary JavaScript for the simulation, but additional steps were required to integrate it into VuePress 2.
 
+- **[Stranger Things Intro](./strangerthingsintro.md)**: Stranger Things is one of my favorite shows of all time, which is what inspired me to make this animation. The title sequence for Stranger Things is also one of my favorites for any show I've watched. I like the science fiction/horror aspect of the series and how you're constantly on your toes, wondering what could happen next. My favorite season is season 3 which is when my favorite characters, Steve, shows most of his growth as a character.
+
 ## Contact Me
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/chaz-arvizu-11816b2a2) or take a look at my [GitHub](https://github.com/ChazArvizu) repo!
 
