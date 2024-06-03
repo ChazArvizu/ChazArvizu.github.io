@@ -1,7 +1,7 @@
 Gym Rat (Senior Design Class)
 ======
 
-## Production Date
+## Production Dates
 **Start**: January 2023 (Spring Semester) 
 
 **End**: December 2023 (Fall Semester)
@@ -34,11 +34,11 @@ This structured development process enabled us to complete the application quick
 
 ## Technologies
 
-- **Frontend**: Flutter
-    - We used flutter for our frontend development because it provided a way for us to only have to code something once and have code that can be compiled to both Android and IOS applications. We used a tool called FlutterFlow which also helped to speed up our development process. 
+### Frontend: Flutter
+We used flutter for our frontend development because it provided a way for us to only have to code something once and have code that can be compiled to both Android and IOS applications. We used a tool called FlutterFlow which also helped to speed up our development process. 
 
-- **Backend**: Firebase
-    - Firebase is a Backend as a service that provided us many "out of the box" services to implement in our app. The services that we used were the realtime database, authentication and cloud storage. Firebase also seamlessly integrates with Flutter because they are both developed/maintained by Google. FlutterFlow made it easy to configure Firebase in our application via a service account which made all the automated changes to the Firebase based on the configurations we input.
+### Backend: Firebase
+Firebase is a Backend as a service that provided us many "out of the box" services to implement in our app. The services that we used were the realtime database, authentication and cloud storage. Firebase also seamlessly integrates with Flutter because they are both developed/maintained by Google. FlutterFlow made it easy to configure Firebase in our application via a service account which made all the automated changes to the Firebase based on the configurations we input.
 
 ## Services
 - **Jira**: Project management software that helped us plan sprints and assign tasks.

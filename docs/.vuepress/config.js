@@ -20,6 +20,7 @@ export default defineUserConfig({
         text: 'Projects',
         children: [
           '/projects/liftjourn.md',
+          '/projects/mealapp.md',
           '/projects/gymrat.md',
         ],
       },
