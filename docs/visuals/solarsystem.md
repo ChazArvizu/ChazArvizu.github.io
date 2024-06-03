@@ -39,6 +39,6 @@ To enhance this simulation, I made several customizations:
 import { defineAsyncComponent } from 'vue';
 
 const SolarSystem = defineAsyncComponent(() =>
-  import('../../components/SolarSystem.vue')
+  import('../../../components/SolarSystem.vue')
 );
 </script>

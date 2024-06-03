@@ -133,5 +133,5 @@ canvas {
 
 
 <script setup>
-import LorenzAttractor from '../../components/LorenzAttractor.vue'
+import LorenzAttractor from '../../../components/LorenzAttractor.vue'
 </script>

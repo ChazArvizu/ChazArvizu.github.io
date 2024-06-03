@@ -15,6 +15,6 @@ To create this animation I followed an excellent write up [found here](https://w
 import { defineAsyncComponent } from 'vue';
 
 const StrangerThingsIntro = defineAsyncComponent(() =>
-  import('../../components/StrangerThingsIntro.vue')
+  import('../../../components/StrangerThingsIntro.vue')
 );
 </script>

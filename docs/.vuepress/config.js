@@ -27,9 +27,9 @@ export default defineUserConfig({
       {
         text: 'Live Browser Animations',
         children: [
-          '/lorenz.md',
-          '/solarsystem.md',
-          '/strangerthingsintro.md',
+          '/visuals/lorenz.md',
+          '/visuals/solarsystem.md',
+          '/visuals/strangerthingsintro.md',
         ],
       },
     ],
