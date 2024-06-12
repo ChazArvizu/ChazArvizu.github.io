@@ -9,8 +9,9 @@ Lorenz Attractor
 I was inspired to create this animation by a YouTuber named Veritasium, as seen in his video about [chaos theory](https://www.youtube.com/watch?v=fDek6cYijxI). The video sparked my curiosity about how small changes in the inputs of an equation can drastically alter the system's output. This behavior is evident in our daily lives, influencing our decisions, whether big or small. Chaotic equations offer a unique way of mapping such behavior.
 
 ## Technical Details
-To create this animation in JavaScript, I followed the steps in the video [found here](https://www.youtube.com/watch?v=AwlOq242GgI&t). I made some adjustments to the code for correct styling, size ratios, and to integrate it with VuePress' template syntax. 
+To create this animation in JavaScript, I followed the steps in the video [found here](https://www.youtube.com/watch?v=AwlOq242GgI&t). I made some adjustments to the code to integrate it with VuePress' template syntax, and for correct styling, size ratios. 
 
+### Challenges
 Here are some specific challenges I faced and how I resolved them:
 - **Compatibility**: To get the Vue.js component to work with VuePress, some extra configurations were required in order to register it properly. In the config.js file I had to add the following code:
 

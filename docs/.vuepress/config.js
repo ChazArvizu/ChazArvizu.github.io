@@ -25,7 +25,7 @@ export default defineUserConfig({
         ],
       },
       {
-        text: 'Live Browser Animations',
+        text: 'Live Browser Projects',
         children: [
           '/visuals/lorenz.md',
           '/visuals/solarsystem.md',
