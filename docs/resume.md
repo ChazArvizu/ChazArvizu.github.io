@@ -36,7 +36,7 @@ November 2022 - December 2023
 - Learned how to resolve disagreements within the officer and executive board team.
 
 **Ralphs Starbucks Barista**  
-January 2018 - present  
+January 2018 - June 2024 
 - Time management skills with balancing school and work.
 - Learned how to communicate effectively in a work environment.
 - Provide customer service through a positive attitude and attention to detail.
