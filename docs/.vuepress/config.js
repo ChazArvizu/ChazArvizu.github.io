@@ -15,7 +15,7 @@ export default defineUserConfig({
 
   theme: defaultTheme({
     logo: '/babyduck.svg',
-
+    
     navbar: [
       { text: 'Home', link: '/' },
       { text: 'Resume', link: '/resume.md' },
@@ -35,8 +35,9 @@ export default defineUserConfig({
           '/visuals/strangerthingsintro.md',
         ],
       },
+      
     ],
-
+    
     colorMode: 'dark',
 
     colorModeSwitch: false,
