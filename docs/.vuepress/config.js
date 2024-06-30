@@ -44,6 +44,10 @@ export default defineUserConfig({
     sidebarDepth: 3,
   }),
 
+  head: [
+    ['link', { rel: 'icon', href: '/babyduck.svg' }],
+  ],
+
   plugins: [
     registerComponentsPlugin({
       LorenzAttractor: path.resolve(__dirname, './components/LorenzAttractor.vue'),
