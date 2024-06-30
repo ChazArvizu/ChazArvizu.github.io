@@ -22,8 +22,8 @@
     --c-text-quote: #999;
   
     // border colors
-    --c-border: #eaecef;
-    --c-border-dark: #dfe2e5;
+    --c-border: var(--c-brand);
+    --c-border-dark: var(--c-brand);
   
     // custom container colors
     --c-tip: #42b983;
@@ -226,8 +226,8 @@
     --c-text-lightest: #8094a8;
   
     // border colors
-    --c-border: #3e4c5a;
-    --c-border-dark: #34404c;
+    --c-border: var(--c-brand);
+    --c-border-dark: var(--c-brand);
   
     // custom container colors
     --c-tip: #318a62;
