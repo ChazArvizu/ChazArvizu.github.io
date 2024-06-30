@@ -10,9 +10,11 @@ export default defineUserConfig({
   title: 'Chaz Arvizu - Portfolio',
   description: 'Portfolio showcasing Chaz Arvizu\'s work',
 
+
+
   bundler: viteBundler(),
   theme: defaultTheme({
-
+    
     navbar: [
       { text: 'Home', link: '/' },
       { text: 'Resume', link: '/resume.md' },
@@ -33,8 +35,6 @@ export default defineUserConfig({
         ],
       },
     ],
-
-    
 
     sidebarDepth: 3,
 
