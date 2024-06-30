@@ -33,6 +33,11 @@ export default defineUserConfig({
         ],
       },
     ],
+
+    
+
+    sidebarDepth: 3,
+
   }),
 
   plugins: [
