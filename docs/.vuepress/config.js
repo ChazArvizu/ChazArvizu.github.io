@@ -8,13 +8,14 @@ const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
   title: 'Chaz Arvizu - Portfolio',
+
   description: 'Portfolio showcasing Chaz Arvizu\'s work',
 
-
-
   bundler: viteBundler(),
+
   theme: defaultTheme({
-    
+    logo: '/babyduck.svg',
+
     navbar: [
       { text: 'Home', link: '/' },
       { text: 'Resume', link: '/resume.md' },
@@ -36,8 +37,11 @@ export default defineUserConfig({
       },
     ],
 
-    sidebarDepth: 3,
+    colorMode: 'dark',
 
+    colorModeSwitch: false,
+
+    sidebarDepth: 3,
   }),
 
   plugins: [

@@ -1,7 +1,7 @@
 # Resume
 
 ## Download
-[Download My Resume Here!](/Chaz_Arvizu_Resume.pdf)
+[Click Here To View/Download My Resume!](https://chazarvizu.github.io/Chaz_Arvizu_Resume.pdf)
 
 <h1>Chaz Arvizu - Computer Science Graduate</h1>
 

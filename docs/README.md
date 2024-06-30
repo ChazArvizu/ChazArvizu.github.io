@@ -1,11 +1,11 @@
-# Welcome to My Portfolio!
+# Chaz's Coding Portfolio!
 
 <ClientOnly>
   <StrangerThingsIntro/>
 </ClientOnly>
 
 ## About Me
-Hello my name is Chaz, I am a recent computer science graduate hailing from Southern California. I'm passionate about building useful web/mobile applications, exploring computer security, and learning application development frameworks. My skills include Python, Javascript, Vue.js, Django, and much more! In my free time when I'm not coding, I enjoy going to the gym, hiking, body boarding, cooking and gaming. I'm excited about the limitless possibilities of app development and eager to expand my knowledge further in this ever changing field.
+Hello my name is Chaz Arvizu, I am a recent computer science graduate hailing from Southern California. I'm passionate about building useful web/mobile applications, exploring computer security, and learning application development frameworks. My skills include Python, Javascript, Vue.js, Django, and much more! In my free time when I'm not coding, I enjoy going to the gym, hiking, body boarding, cooking and gaming. I'm excited about the limitless possibilities of app development and eager to expand my knowledge further in this ever changing field.
 
 ## Education
 #### **B.S. Computer Science**: California State University Long Beach, December 2023
