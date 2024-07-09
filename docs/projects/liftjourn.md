@@ -23,7 +23,10 @@ LiftJourn is a web/native application that allows users to create workout routin
 ### Frontend: Expo & Vue.js
 
 #### Expo
-Expo is a framework and a platform for universal React applications. It allows for quick and easy development of native apps for both iOS and Android from the same codebase. I am using Expo to build the frontend of LiftJourn's mobile application, taking advantage of its robust toolset and ease of deployment. This Expo frontend will also consume the same backend Django REST API that the Vue.js frontend consumes to ensure data consistency between both the native Expo app and Vue.js web app versions of LiftJourn.
+Expo is a framework and a platform for creating universal React applications. It allows for quick and easy development of native apps for both iOS and Android from the same codebase. I am using Expo to build the frontend of LiftJourn's mobile application, taking advantage of its robust toolset and ease of deployment. This Expo frontend will consume the same backend Django REST API that the Vue.js frontend uses to ensure data consistency between both the native Expo app and Vue.js web app versions of LiftJourn. Expo also provides many great tools to help speed up development, such as the mobile app Expo Go:
+
+##### Expo Go
+Expo Go is a very powerful tool for mobile app developers who are trying to develop native applications for both android and ios who don't have access to both OS platforms. As a developer with a Windows PC and an Apple Iphone, Expo Go makes it super easy to test the application I'm developing on a physical apple device. All you have to do is download the Expo Go mobile app, scan the QR code that appears in the console after running the `npx expo start` command on your project, and the app bundles you code, allowing you to start testing immediately.
 
 #### Vue.js
 Vue.js is a JavaScript framework for building user interfaces. I chose Vue.js for LiftJourn due to its popularity, ease of learning, and the vibrant community backing it. Additionally, Vue.js offers excellent documentation and tooling, making it a great choice for rapid development. My Vue.js frontend consumes the Django REST API, which serves as the backend infrastructure for LiftJourn.
@@ -35,7 +38,10 @@ Django is a high-level Python web framework that encourages rapid development an
 PostgreSQL is the best-supported database for Django. It offers a wide range of advanced features, including support for complex queries, indexing, full-text search, and JSON data types.
 
 ### Deployment: Digital Ocean
-DigitalOcean is a cloud service provider that offers competitive pricing, with a straightforward pricing model that includes transparent pricing for all of their services. It also provides simple documentation, making it easy for developers to set up and manage servers, databases, and other cloud infrastructure components. I used their app platform to deploy my application, following the Django [documentation here](https://docs.digitalocean.com/developer-center/deploy-a-django-app-on-app-platform/) to initially set up my Django backend. I then added a static site to serve my frontend via a Content Delivery Network (CDN). The app platform provides a simple way for deploying new changes via GitHub; as a developer, all you have to do is push your changes to the main branch, and Digital Ocean will automatically build and redeploy your changes. This promotes a much more agile development process by streamlining the deployment process.
+DigitalOcean is a cloud service provider that offers competitive pricing, with a straightforward pricing model that includes transparent pricing for all of their services. It also provides simple documentation, making it easy for developers to set up and manage servers, databases, and other cloud infrastructure components. 
+
+#### Digital Ocean App Platform
+I used their app platform to deploy my application, following the Django [documentation here](https://docs.digitalocean.com/developer-center/deploy-a-django-app-on-app-platform/) to initially set up my Django backend. I then added a static site to serve my frontend via a Content Delivery Network (CDN). The app platform provides a simple way for deploying new changes via GitHub; as a developer, all you have to do is push your changes to the main branch, and Digital Ocean will automatically build and redeploy your changes. This promotes a much more agile development process by streamlining the deployment process.
 
 ## Services
 - **Github**: Version control system. All my code is uploaded to a private GitHub repository.

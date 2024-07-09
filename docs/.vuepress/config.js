@@ -9,14 +9,13 @@ const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
   title: 'Chaz Arvizu - Portfolio',
-
   description: 'Portfolio showcasing Chaz Arvizu\'s work',
 
   bundler: viteBundler(),
 
   theme: defaultTheme({
     logo: '/babyduck.svg',
-    
+
     navbar: [
       { text: 'Home', link: '/' },
       { text: 'Resume', link: '/resume.md' },
@@ -36,14 +35,11 @@ export default defineUserConfig({
           '/visuals/strangerthingsintro.md',
         ],
       },
-      
     ],
-    
+
     colorMode: 'dark',
-
     colorModeSwitch: false,
-
-    sidebarDepth: 3,
+    sidebarDepth: 5,
   }),
 
   head: [
@@ -52,13 +48,14 @@ export default defineUserConfig({
 
   plugins: [
     registerComponentsPlugin({
-      LorenzAttractor: path.resolve(__dirname, './components/LorenzAttractor.vue'),
-      SolarSystem: path.resolve(__dirname, './components/SolarSystem.vue'),
-      StrangerThingsIntro: path.resolve(__dirname, './components/StrangerThingsIntro.vue'),
+      components: {
+        LorenzAttractor: path.resolve(__dirname, './components/LorenzAttractor.vue'),
+        SolarSystem: path.resolve(__dirname, './components/SolarSystem.vue'),
+        StrangerThingsIntro: path.resolve(__dirname, './components/StrangerThingsIntro.vue'),
+      },
     }),
     searchPlugin({
-      // options
+      
     }),
   ],
-
 })
