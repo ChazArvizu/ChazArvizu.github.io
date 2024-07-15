@@ -10,7 +10,7 @@ const __dirname = getDirname(import.meta.url)
 export default defineUserConfig({
   title: 'Chaz Arvizu - Portfolio',
   description: 'Portfolio showcasing Chaz Arvizu\'s work',
-
+  
   bundler: viteBundler(),
 
   theme: defaultTheme({
@@ -52,6 +52,7 @@ export default defineUserConfig({
         LorenzAttractor: path.resolve(__dirname, './components/LorenzAttractor.vue'),
         SolarSystem: path.resolve(__dirname, './components/SolarSystem.vue'),
         StrangerThingsIntro: path.resolve(__dirname, './components/StrangerThingsIntro.vue'),
+        Card: path.resolve(__dirname, './components/Card.vue'),
       },
     }),
     searchPlugin({
