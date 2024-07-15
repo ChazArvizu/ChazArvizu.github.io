@@ -53,6 +53,7 @@ export default defineUserConfig({
         SolarSystem: path.resolve(__dirname, './components/SolarSystem.vue'),
         StrangerThingsIntro: path.resolve(__dirname, './components/StrangerThingsIntro.vue'),
         Card: path.resolve(__dirname, './components/Card.vue'),
+        Footer: path.resolve(__dirname, './components/Footer.vue'),
       },
     }),
     searchPlugin({

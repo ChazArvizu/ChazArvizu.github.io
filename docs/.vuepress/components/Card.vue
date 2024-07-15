@@ -1,10 +1,7 @@
-<!-- components/Card.vue -->
 <template>
     <div class="card-wrapper" @click="navigateToLink" :class="{ 'clickable': link }">
         <div class="card">
-            <template v-if="image">
-                <img :src="image" alt="Card Image" class="card-image" />
-            </template>
+            <img v-if="image" :src="image" alt="Card Image" class="card-image" />
             <div class="card-content">
                 <p class="card-title">{{ title }}</p>
                 <p class="card-description">{{ description }}</p>
@@ -13,34 +10,38 @@
     </div>
 </template>
 
-<script>
-export default {
-    props: {
-        image: {
-            type: String,
-            required: false,
-        },
-        title: {
-            type: String,
-            required: true,
-        },
-        description: {
-            type: String,
-            required: true,
-        },
-        link: {
-            type: String,
-            required: false,
-        },
+<script setup>
+import { computed } from 'vue';
+import { useRouter } from 'vue-router';
+
+const props = defineProps({
+    image: {
+        type: String,
+        required: false,
     },
-    methods: {
-        navigateToLink() {
-            if (this.link) {
-                window.location.href = this.link;
-            }
-        }
+    title: {
+        type: String,
+        required: true,
+    },
+    description: {
+        type: String,
+        required: true,
+    },
+    link: {
+        type: String,
+        required: false,
+    },
+});
+
+const router = useRouter();
+
+const isClickable = computed(() => !!props.link);
+
+const navigateToLink = () => {
+    if (props.link) {
+        router.push(props.link);
     }
-}
+};
 </script>
 
 <style scoped>
@@ -67,7 +68,6 @@ export default {
 }
 
 .card-image {
-    /* width: 100%; */
     height: auto;
     display: block;
 }

@@ -50,8 +50,7 @@ Hello, my name is Chaz Arvizu, and I recently moved to Tennessee after graduatin
   link="./visuals/strangerthingsintro.md"
 />
 
-## Contact Me
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/chaz-arvizu-11816b2a2) or take a look at my [GitHub](https://github.com/ChazArvizu) repo!
+<Footer />
 
 <script setup>
 import { defineAsyncComponent } from 'vue';
@@ -63,10 +62,12 @@ const StrangerThingsIntro = defineAsyncComponent(() =>
 
 <script>
 import Card from '../../components/Card.vue'
+import Footer from '../../components/Footer.vue'
 
 export default {
   components: {
     Card,
+    Footer,
   },
 }
 </script>
