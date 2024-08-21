@@ -16,9 +16,15 @@
 ## Description
 LiftJourn is a native application that allows users to create workout routines, track their workouts, and view their friend's completed workouts. LiftJourn provides the user with an easy-to-use and convenient way to keep track of their workouts to see their progress over time. LiftJourn has both a free version and a premium version available to users. The premium version allows more functionality with AI and statistical analysis. I have designed and developed this application all as a solo developer, learning Django, Vue.js and Expo as I develop the application.
 
+<img src="/technologies-collage.png" alt="Django Icon" style="width: 75%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+
 ## Technologies
 
 ### Frontend: Expo & Vue.js
+
+<a href="https://docs.expo.dev/" target="_blank" rel="noopener noreferrer" style="display: flex; justify-content: center; align-items: flex-end; margin-top: 20px;">
+  <img src="/logo-wordmark.svg" alt="Expo Icon" style="width: 50%; height: auto; display: block;">
+</a>
 
 #### Expo
 Expo is a framework and a platform for creating universal React applications. It allows for quick and easy development of native apps for both iOS and Android from the same codebase. I am using Expo to build the frontend of LiftJourn's mobile application, taking advantage of its robust toolset and ease of deployment. This Expo frontend will consume the same backend Django REST API that the Vue.js frontend uses to ensure data consistency between both the native Expo app and Vue.js web app versions of LiftJourn. Expo also provides many great tools to help speed up development, such as the mobile app Expo Go:
@@ -29,14 +35,30 @@ Expo Go is a very powerful tool for mobile app developers who are trying to deve
 #### Vue.js (Web App Version Discontinued)
 Vue.js is a JavaScript framework for building user interfaces. I chose Vue.js for LiftJourn due to its popularity, ease of learning, and the vibrant community backing it. Additionally, Vue.js offers excellent documentation and tooling, making it a great choice for rapid development. My Vue.js frontend consumes the Django REST API, which serves as the backend infrastructure for LiftJourn.
 
+
+<a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer" style="display: flex; justify-content: center; align-items: flex-end;">
+  <img src="https://static.djangoproject.com/img/logos/django-logo-negative.svg" alt="Django Icon" style="width: 50%; height: auto; display: block;">
+</a>
+
 ### Backend: Django
 Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Django also offers great documentation along with many online resources for learning the framework. I use the Django REST framework as my backend API which is consumed by my Expo frontend.
+
+#### Django REST Framework
+The Django REST Framework is a powerful framework that provides many tools to help optimize development.
+
+<a href="https://openai.com/api/" target="_blank" rel="noopener noreferrer" style="display: flex; justify-content: center; align-items: flex-end;">
+  <img src="/openai-white-lockup.svg" alt="OpenAI Icon" style="width: 50%; height: auto; display: block;">
+</a>
 
 ### OpenAI: GPT-4o-mini API
 The GPT-4o-mini API is a very powerful tool for integrating Artificial Intelligence functionalities into an application. In my use case, the 4o-mini model is a very accurate and affordable model to help boost the users experience. LiftJourn utilized the API in the following functionalities: Personalized Workout Routines, Exercise Statistical Analysis, and Autofill for Workouts Based on Past Data.
 
 ### Database: PostgreSQL
 PostgreSQL is the best-supported database for Django. It offers a wide range of advanced features, including support for complex queries, indexing, full-text search, and JSON data types.
+
+<a href="https://www.digitalocean.com/" target="_blank" rel="noopener noreferrer" style="display: flex; justify-content: center; align-items: flex-end;">
+  <img src="/do-icon.png" alt="Django Icon" style="width: 50%; height: auto; display: block;">
+</a>
 
 ### Deployment: Digital Ocean
 DigitalOcean is a cloud service provider that offers competitive pricing, with a straightforward pricing model that includes transparent pricing for all of their services. It also provides simple documentation, making it easy for developers to set up and manage servers, databases, and other cloud infrastructure components. 

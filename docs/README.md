@@ -21,6 +21,7 @@ Hello, my name is Chaz Arvizu, and I recently moved to Tennessee after graduatin
   title="LiftJourn"
   description="LiftJourn is a native application that allows users to create workout routines, track their workouts, and view their friend's completed workouts. LiftJourn provides the user with an easy-to-use and convenient way to keep track of their workouts to see their progress over time. LiftJourn has both a free version and a premium version available to users. The premium version allows more functionality with AI and statistical analysis. I have designed and developed this application all as a solo developer, learning Django, Vue.js and Expo as I develop the application."
   link="./projects/liftjourn.md"
+  image="/technologies-collage.png"
 />
 
 <Card
