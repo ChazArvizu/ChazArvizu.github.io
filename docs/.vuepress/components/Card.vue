@@ -1,5 +1,5 @@
 <template>
-    <div class="card-wrapper" @click="navigateToLink" :class="{ 'clickable': link }">
+    <div class="card-wrapper" @click="handleClick" :class="{ 'clickable': link }">
         <div class="card">
             <img v-if="image" :src="image" alt="Card Image" class="card-image" />
             <div class="card-content">
@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-import { computed } from 'vue';
+import { computed, ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 const props = defineProps({
@@ -37,9 +37,15 @@ const router = useRouter();
 
 const isClickable = computed(() => !!props.link);
 
-const navigateToLink = () => {
-    if (props.link) {
-        router.push(props.link);
+const lastClickTime = ref(0);
+
+const handleClick = () => {
+    const currentTime = new Date().getTime();
+    if (currentTime - lastClickTime.value > 300) {
+        lastClickTime.value = currentTime;
+        if (props.link) {
+            router.push(props.link);
+        }
     }
 };
 </script>

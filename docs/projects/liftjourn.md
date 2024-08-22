@@ -1,6 +1,6 @@
 # LiftJourn (Mobile Application)
 
-<img src="/liftjourn.png" alt="LiftJourn Logo" width="200" />
+<img src="/liftjourn.png" alt="LiftJourn Logo" style="display: block; margin-left: auto; margin-right: auto; width: 200px" />
 
 ## Website
 [www.liftjourn.com](https://www.liftjourn.com/) _Informational website for LiftJourn users._
@@ -8,10 +8,14 @@
 ## Production Dates
 **Start:** March 2024
 
-**Beta Deployed:** May 2024
+**Vue Beta Deployed:** May 2024
 
-**Currently:** Building Frontend in React Native Expo
-- projected release on IOS: Early August
+**Vue Version Discontinued:** June 2024
+
+**Expo Version Started:** July 2024
+
+**Currently:** Optimizing Frontend Expo
+- projected beta release on IOS: Early September
 
 ## Description
 LiftJourn is a native application that allows users to create workout routines, track their workouts, and view their friend's completed workouts. LiftJourn provides the user with an easy-to-use and convenient way to keep track of their workouts to see their progress over time. LiftJourn has both a free version and a premium version available to users. The premium version allows more functionality with AI and statistical analysis. I have designed and developed this application all as a solo developer, learning Django, Vue.js and Expo as I develop the application.
@@ -38,7 +42,7 @@ Expo is a powerful framework and platform for creating universal React applicati
 
 #### Why Expo for LiftJourn?
 - **Rapid Prototyping:** Expo's hot reloading and instant previews accelerate the development cycle.
-- **Consistent Data Management:** The Expo frontend consumes the same Django REST API as the Vue.js web app, ensuring data consistency across platforms.
+- **Consistent Data Management:** The Expo frontend consumes the same Django REST API that the Vue.js web app did, ensuring data consistency across platforms.
 - **Community Support:** Expo has a large, active community, providing extensive resources and third-party libraries.
 - **Scalability:** As LiftJourn grows, Expo can be "ejected" for more fine-grained control over the native code.
 
@@ -57,49 +61,29 @@ Expo Go is a powerful tool for mobile app developers, especially those working o
 1. **Easy Testing:** It allows for immediate testing on a physical Apple device without needing a MacOS environment.
 2. **Simple Setup:** Just download the Expo Go mobile app and scan the QR code that appears in the console after running `npx expo start`.
 3. **Real-time Updates:** The app bundles your code on-the-fly, allowing for instant testing of changes.
-4. **Device Features:** Expo Go provides access to device-specific features, enabling comprehensive testing.
-
-##### Expo Snack
-Expo Snack is an online playground for experimenting with React Native code. It's useful for:
-- Quick prototyping of ideas
-- Sharing code snippets with the community
-- Testing components in isolation
+4. **Device Features:** Expo Go provides access to device-specific features with a development build, enabling comprehensive testing.
 
 #### Expo and React Native
 While Expo is built on top of React Native, it abstracts away much of the complexity, making it an excellent choice for developers who want to focus on building features rather than dealing with native code intricacies. However, it's important to note that this abstraction can sometimes limit access to certain native modules or customizations. For LiftJourn, the benefits of rapid development and cross-platform compatibility outweigh these potential limitations.
+
+<a href="https://nuxt.com/" target="_blank" rel="noopener noreferrer" style="display: flex; justify-content: center; align-items: flex-end; margin-top: 20px;">
+  <img src="/logo-green-white.png" alt="Nuxt Icon" style="width: 50%; height: auto; display: block;">
+</a>
+
 
 ### Nuxt.js (Static Site)
 
 Nuxt.js is a powerful and flexible framework built on top of Vue.js, designed to create modern web applications with ease. For LiftJourn, I'm utilizing Nuxt.js to develop the static informational site, leveraging its robust features for server-side rendering, static site generation, and improved SEO capabilities.
 
-#### Key Features of Nuxt.js:
-1. **Server-Side Rendering (SSR):** Improves initial page load times and SEO.
-2. **Static Site Generation (SSG):** Creates fast, pre-rendered static pages.
-3. **Automatic Code Splitting:** Optimizes application load times.
-4. **Vue.js Integration:** Seamlessly works with Vue.js ecosystem.
-5. **Modular Architecture:** Allows for easy extension of functionality.
-
 #### Why Nuxt.js for LiftJourn's Informational Site?
 - **SEO Optimization:** Server-side rendering and static site generation improve search engine visibility.
 - **Performance:** Fast loading times due to pre-rendered content and optimized assets.
 - **Developer Experience:** Intuitive project structure and conventions speed up development.
+- **Nuxt Modules:** Extends functionality with a wide range of community-built modules.
 - **Scalability:** Easy to start small and scale up as the project grows.
 
 #### Nuxt.js and Vue.js Experience
 Having prior experience with Vue.js has made working with Nuxt.js a natural progression. The familiar Vue.js syntax and conventions are present in Nuxt.js, with additional features that enhance the development process:
-
-1. **File-based Routing:** Automatically generates routes based on the file structure.
-2. **Layouts and Pages:** Simplifies the creation of consistent layouts across pages.
-3. **Vuex Store Integration:** Built-in support for state management.
-4. **Nuxt Modules:** Extends functionality with a wide range of community-built modules.
-
-#### Development Workflow
-The development workflow with Nuxt.js is streamlined and efficient:
-
-1. **Project Setup:** Quick setup using `create-nuxt-app`.
-2. **Development Server:** Hot-reloading enabled for rapid iterations.
-3. **Content Management:** Easy integration with headless CMS or markdown files for content.
-4. **Building and Deployment:** Simple commands to generate static sites for deployment.
 
 #### Static Site Generation for LiftJourn
 For the LiftJourn informational site, I'm leveraging Nuxt.js's static site generation capabilities:
@@ -169,9 +153,14 @@ DigitalOcean is a cloud service provider that offers competitive pricing, with a
 I used their app platform to deploy my application, following the [Django documentation here](https://docs.digitalocean.com/developer-center/deploy-a-django-app-on-app-platform/) to initially set up my Django backend. I then added a static site to serve my frontend via a Content Delivery Network (CDN). The app platform provides a simple way for deploying new changes via GitHub; as a developer, all you have to do is push your changes to the main branch, and Digital Ocean will automatically build and redeploy your changes. This promotes a much more agile development process by streamlining the deployment process.
 
 ## Services
-- **Github**: Version control system. All my code is uploaded to a private GitHub repository.
-- **Email Validation**: Utilizes a Google Cloud service account to impersonate a noreply email for email validation.
-- **Namecheap**: Namecheap offers domain registration, hosting, and other services at a fair price.
+### Github
+Version control system. All my code is uploaded to a private GitHub repository.
+
+### Gmail API 
+Liftjourn utilizes a Google Cloud service account to impersonate a noreply email for user email validation.
+
+### Namecheap
+Namecheap offers domain registration, hosting, and other services at a fair price.
 
 ## Features
 - User authentication and authorization

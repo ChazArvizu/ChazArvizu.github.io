@@ -1,4 +1,4 @@
-# Resume
+# Chaz's Resume
 
 ## Download
 [Click Here To View/Download My Resume!](https://chazarvizu.github.io/Chaz_Arvizu_Resume.pdf)
@@ -6,7 +6,7 @@
 <h1>Chaz Arvizu - Software Engineer</h1>
 
 ## Education
-**B.S. Computer Science** - California State University, Long Beach  
+**B.S. Computer Science** - California State University Long Beach  
 GPA: 3.370  
 September 2018 - December 2023
 
@@ -30,7 +30,7 @@ September 2018 - December 2023
 - Collaborated with team members to tackle challenges and divide tasks effectively.
 
 ## Professional Experience
-**Tau Beta PI - Engineering Honor Society - Vice President**  
+**[Tau Beta PI - Engineering Honor Society](https://www.tbp.org/recruit/recruitHome.cfm) - Vice President**  
 November 2022 - December 2023  
 - Helped lead the on campus Engineering Honors Society as second in command, increasing membership by 40% through engaging events, and effective communication strategies.
 - Planned events that occurred on and off campus by working with both the school and other officers of Tau Beta Pi, to ensure an enjoyable experience for members of Tau Beta Pi.
