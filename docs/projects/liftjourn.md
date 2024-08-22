@@ -73,7 +73,7 @@ While Expo is built on top of React Native, it abstracts away much of the comple
 
 ### Nuxt.js (Static Site)
 
-Nuxt.js is a powerful and flexible framework built on top of Vue.js, designed to create modern web applications with ease. For LiftJourn, I'm utilizing Nuxt.js to develop the static informational site, leveraging its robust features for server-side rendering, static site generation, and improved SEO capabilities.
+Nuxt.js is a powerful and flexible framework built on top of Vue.js, which made working with Nuxt.js easier due to my prior experience with Vue.js. For LiftJourn, I'm utilizing Nuxt.js to develop the static informational site, leveraging its robust features for server-side rendering, static site generation, and improved SEO capabilities.
 
 #### Why Nuxt.js for LiftJourn's Informational Site?
 - **SEO Optimization:** Server-side rendering and static site generation improve search engine visibility.
@@ -81,9 +81,6 @@ Nuxt.js is a powerful and flexible framework built on top of Vue.js, designed to
 - **Developer Experience:** Intuitive project structure and conventions speed up development.
 - **Nuxt Modules:** Extends functionality with a wide range of community-built modules.
 - **Scalability:** Easy to start small and scale up as the project grows.
-
-#### Nuxt.js and Vue.js Experience
-Having prior experience with Vue.js has made working with Nuxt.js a natural progression. The familiar Vue.js syntax and conventions are present in Nuxt.js, with additional features that enhance the development process:
 
 #### Static Site Generation for LiftJourn
 For the LiftJourn informational site, I'm leveraging Nuxt.js's static site generation capabilities:
