@@ -5,8 +5,10 @@
 
 <h1>Chaz Arvizu - Software Engineer</h1>
 
-## Career Objective
-Expand knowledge on software engineering and the application of software. Gain work experience in a company environment. Eager to expand upon problem solving skills in a team environment. Interested in improving leadership skills. **Willing to relocate for the right opportunity.**
+## Education
+**B.S. Computer Science** - California State University, Long Beach  
+GPA: 3.370  
+September 2018 - December 2023
 
 ## Skills
 **Languages**: Python, HTML, CSS, JavaScript, C, Markdown, TypeScript, SQL
@@ -15,19 +17,14 @@ Expand knowledge on software engineering and the application of software. Gain w
 
 **Tools**: GitHub, DigitalOcean, JIRA, Google Workspace, Flutter Flow, Firebase, Ghidra
 
-## Education
-**B.S. Computer Science** - California State University, Long Beach  
-GPA: 3.370  
-September 2018 - December 2023  
-
 ## Projects
-**[LiftJourn](/projects/liftjourn.md) - Full Stack Application**
+**[LiftJourn - Full Stack Mobile Application](/projects/liftjourn.md)**
 - Developed a full-stack web application using Django and Vue.js, incorporating features such as user authentication, exercise tracking, and workout routine management.
 - Implemented RESTful APIs with Django REST framework for frontend to backend communication between Django web server and a static Vue.js frontend.
 - Utilized DigitalOcean App platform to deploy and manage the LiftJourn Application.
 - Overcame technical challenges such as user authentication via Json Web Tokens and securely handling them, demonstrating problem-solving skills and technical expertise.
 
-**Senior Design Class - [Gym Rat](./projects/gymrat.md) - Mobile/Web App**
+**[Senior Design Class - Gym Rat - Mobile/Web App](./projects/gymrat.md)**
 - Created a mobile app using Flutter and Firebase for iOS and Android platforms.
 - Practiced agile development with SCRUM methodology and managed sprints and issues in the project management software JIRA.
 - Collaborated with team members to tackle challenges and divide tasks effectively.
@@ -45,4 +42,5 @@ January 2018 - June 2024
 - Provided customer service with a positive attitude and attention to detail, ensuring every customer left satisfied.
 - Demonstrated time management skills by balancing school and work.
 
-
+## Career Objective
+Expand knowledge on software engineering and the application of software. Gain work experience in a company environment. Eager to expand upon problem solving skills in a team environment. Interested in improving leadership skills. **Willing to relocate for the right opportunity.**

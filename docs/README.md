@@ -9,10 +9,10 @@ Hello, my name is Chaz Arvizu, and I recently moved to Tennessee after graduatin
 
 ## Education
 #### **B.S. Computer Science**: California State University Long Beach, December 2023
-- **Acknowledgments**:
-    - Fall 2021: President's List
-    - Spring 2022: Deans' List
-    - Fall 2022: Initiated into Tau Beta Pi - Engineering Honor Society
+##### **Acknowledgments**
+  - Fall 2021: President's List
+  - Spring 2022: Deans' List
+  - Fall 2022: Initiated into Tau Beta Pi - Engineering Honor Society
 
 ## Featured Projects
 <span style="font-size: 0.9em;">(Click on the project cards for more details)</span>

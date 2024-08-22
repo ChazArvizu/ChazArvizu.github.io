@@ -70,6 +70,7 @@ const navigateToLink = () => {
 .card-image {
     height: auto;
     display: block;
+    pointer-events: none;
 }
 
 .card-content {
@@ -80,6 +81,7 @@ const navigateToLink = () => {
     margin: 0 0 8px;
     font-size: 1.25rem;
     font-weight: bold;
+    font-size: x-large;
 }
 
 .card-description {
