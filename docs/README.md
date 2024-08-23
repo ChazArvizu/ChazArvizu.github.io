@@ -12,7 +12,7 @@ Hello, my name is Chaz Arvizu, and I recently moved to Tennessee after graduatin
 ##### **Acknowledgments**
   - Fall 2021: President's List
   - Spring 2022: Deans' List
-  - Fall 2022: [Initiated into Tau Beta Pi - Engineering Honor Society](https://www.tbp.org/recruit/recruitHome.cfm)
+  - Fall 2022: Initiated into [Tau Beta Pi - Engineering Honor Society](https://www.tbp.org/recruit/recruitHome.cfm)
 
 ## Featured Projects
 <span style="font-size: 0.9em;">(Click on the project cards for more details)</span>

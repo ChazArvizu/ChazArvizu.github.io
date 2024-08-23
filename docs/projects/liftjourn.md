@@ -14,9 +14,9 @@ LiftJourn is a native application that allows users to create workout routines, 
 
 <img src="/technologies-collage.png" alt="Collage Icon" style="width: 75%; height: auto; display: block; margin-left: auto; margin-right: auto; border-radius: 5px;">
 
-## Technologies
+## Technology Stack
 
-### Frontends: Expo, Nuxt.js & Vue.js
+### Frontend: Expo & Nuxt.js
 
 <a href="https://docs.expo.dev/" target="_blank" rel="noopener noreferrer" style="display: flex; justify-content: center; align-items: flex-end; margin-top: 20px;">
   <img src="/logo-wordmark.svg" alt="Expo Icon" style="width: 50%; height: auto; display: block;">
@@ -55,13 +55,10 @@ Expo Go is a powerful tool for mobile app developers, especially those working o
 3. **Real-time Updates:** The app bundles your code on-the-fly, allowing for instant testing of changes.
 4. **Device Features:** Expo Go provides access to device-specific features with a development build, enabling comprehensive testing.
 
-#### Expo and React Native
-While Expo is built on top of React Native, it abstracts away much of the complexity, making it an excellent choice for developers who want to focus on building features rather than dealing with native code intricacies. However, it's important to note that this abstraction can sometimes limit access to certain native modules or customizations. For LiftJourn, the benefits of rapid development and cross-platform compatibility outweigh these potential limitations.
 
 <a href="https://nuxt.com/" target="_blank" rel="noopener noreferrer" style="display: flex; justify-content: center; align-items: flex-end; margin-top: 20px;">
   <img src="/logo-green-white.png" alt="Nuxt Icon" style="width: 50%; height: auto; display: block;">
 </a>
-
 
 ### Nuxt.js (Static Site)
 
@@ -83,9 +80,6 @@ For the LiftJourn informational site, I'm leveraging Nuxt.js's static site gener
 4. **Deployment:** Easily deployable to static hosting platforms, in my case, Digital Ocean App Platform.
 
 This approach ensures that the informational site is fast, SEO-friendly, and cost-effective to host, providing an excellent user experience for visitors looking to learn about LiftJourn before downloading the app.
-
-### Vue.js (Web App Version Discontinued)
-Vue.js is a JavaScript framework for building user interfaces. I chose Vue.js for LiftJourn due to its popularity, ease of learning, and the vibrant community backing it. Additionally, Vue.js offers excellent documentation and tooling, making it a great choice for rapid development. My Vue.js frontend consumes the Django REST API, which serves as the backend infrastructure for LiftJourn.
 
 
 <a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer" style="display: flex; justify-content: center; align-items: flex-end;">
@@ -121,6 +115,10 @@ The [Django REST Framework](https://www.django-rest-framework.org/)(DRF) is a po
 - **Customization:** Highly customizable - you can use regular function-based views if you prefer.
 - **Community:** Large and active community, which means good support and frequent updates.
 
+
+### Database: PostgreSQL
+PostgreSQL is the best-supported database for Django. It offers a wide range of advanced features, including support for complex queries, indexing, full-text search, and JSON data types.
+
 <a href="https://openai.com/api/" target="_blank" rel="noopener noreferrer" style="display: flex; justify-content: center; align-items: flex-end;">
   <img src="/openai-white-lockup.svg" alt="OpenAI Icon" style="width: 50%; height: auto; display: block;">
 </a>
@@ -128,8 +126,6 @@ The [Django REST Framework](https://www.django-rest-framework.org/)(DRF) is a po
 ### OpenAI: GPT-4o-mini API
 The GPT-4o-mini API is a very powerful tool for integrating Artificial Intelligence functionalities into an application. In my use case, the 4o-mini model is a very accurate and affordable model to help boost the users experience. LiftJourn utilized the API in the following functionalities: Personalized Workout Routines, Exercise Statistical Analysis, and Autofill for Workouts Based on Past Data.
 
-### Database: PostgreSQL
-PostgreSQL is the best-supported database for Django. It offers a wide range of advanced features, including support for complex queries, indexing, full-text search, and JSON data types.
 
 <a href="https://www.digitalocean.com/" target="_blank" rel="noopener noreferrer" style="display: flex; justify-content: center; align-items: flex-end;">
   <img src="/do-icon.png" alt="Digital Ocean Icon" style="width: 50%; height: auto; display: block; border-radius: 5px;">
@@ -174,14 +170,14 @@ const timelineEvents = ref([
     description: 'Started production on Django backend and Vue.js frontend',
   },
   {
-    title: 'Vue Beta Deployed',
+    title: 'Vue.js Beta Deployed',
     date: 'May 2024',
     description: 'Deployed Django backend and Vue.js frontend to Digital Ocean',
   },
   {
-    title: 'Vue Beta Version Discontinued',
+    title: 'Vue.js Beta Version Discontinued',
     date: 'Early June 2024',
-    description: 'I wanted a native running application instead of a web app',
+    description: 'I wanted to create a native running application instead of a web app',
   },
   {
     title: 'Expo Production Started',
@@ -194,11 +190,10 @@ const timelineEvents = ref([
     description: 'AI functionalities of app working',
   },
   {
-    title: 'Optimizing Frontend Expo',
+    title: 'Optimizing Frontend & Backend Code',
     date: 'August 2024',
     description: 'Cleaning up the codebase',
   },
-  // Add more events as needed
 ])
 </script>
 
