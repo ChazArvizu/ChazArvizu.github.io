@@ -5,17 +5,9 @@
 ## Website
 [www.liftjourn.com](https://www.liftjourn.com/) _Informational website for LiftJourn users._
 
-## Production Dates
-**Start:** March 2024
+## Project Milestones
 
-**Vue Beta Deployed:** May 2024
-
-**Vue Version Discontinued:** June 2024
-
-**Expo Version Started:** July 2024
-
-**Currently:** Optimizing Frontend Expo
-- projected beta release on IOS: Early September
+<TimeLine :events="timelineEvents" />
 
 ## Description
 LiftJourn is a native application that allows users to create workout routines, track their workouts, and view their friend's completed workouts. LiftJourn provides the user with an easy-to-use and convenient way to keep track of their workouts to see their progress over time. LiftJourn has both a free version and a premium version available to users. The premium version allows more functionality with AI and statistical analysis. I have designed and developed this application all as a solo developer, learning Django, Vue.js and Expo as I develop the application.
@@ -169,3 +161,44 @@ Namecheap offers domain registration, hosting, and other services at a fair pric
 - Implement additional social features (view friends' profiles, add their routines to your routines)
 - Enhance workout tracking statistics analysis for premium users
 - Improve user interface and user experience with feedback from users
+
+
+
+<script setup>
+import { ref } from 'vue'
+
+const timelineEvents = ref([
+  {
+    title: 'Production Start',
+    date: 'March 2024',
+    description: 'Started production on Django backend and Vue.js frontend',
+  },
+  {
+    title: 'Vue Beta Deployed',
+    date: 'May 2024',
+    description: 'Deployed Django backend and Vue.js frontend to Digital Ocean',
+  },
+  {
+    title: 'Vue Beta Version Discontinued',
+    date: 'Early June 2024',
+    description: 'I wanted a native running application instead of a web app',
+  },
+  {
+    title: 'Expo Production Started',
+    date: 'Early June 2024',
+    description: 'Description of event 2',
+  },
+  {
+    title: 'Integrated ChatGPT API',
+    date: 'Mid June 2024',
+    description: 'AI functionalities of app working',
+  },
+  {
+    title: 'Optimizing Frontend Expo',
+    date: 'August 2024',
+    description: 'Cleaning up the codebase',
+  },
+  // Add more events as needed
+])
+</script>
+
