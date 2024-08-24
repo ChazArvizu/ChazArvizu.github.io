@@ -2,8 +2,8 @@
 
 <img src="/liftjourn.png" alt="LiftJourn Logo" style="display: block; margin-left: auto; margin-right: auto; width: 200px" />
 
-## Website
-[www.liftjourn.com](https://www.liftjourn.com/) _Informational website for LiftJourn users._
+## Informational Website
+[www.liftjourn.com](https://www.liftjourn.com/) _Informational website for LiftJourn users. (Created using Nuxt.js)_
 
 ## Project Milestones
 
@@ -70,6 +70,7 @@ Nuxt.js is a powerful and flexible framework built on top of Vue.js, which made 
 - **Developer Experience:** Intuitive project structure and conventions speed up development.
 - **Nuxt Modules:** Extends functionality with a wide range of community-built modules.
 - **Scalability:** Easy to start small and scale up as the project grows.
+- **Familiarity:** My past experience with Vue.js made adopting Nuxt.js easy
 
 #### Static Site Generation for LiftJourn
 For the LiftJourn informational site, I'm leveraging Nuxt.js's static site generation capabilities:
@@ -106,7 +107,7 @@ The [Django REST Framework](https://www.django-rest-framework.org/)(DRF) is a po
 
 #### Key Features of Django REST Framework:
 1. **Serialization:** Converts complex data types, such as querysets and model instances, to Python datatypes that can then be easily rendered into JSON, XML, or other content types.
-2. **Authentication:** Includes packages for OAuth1a and OAuth2 authentication.
+2. **Authentication:** Includes plugins for JWT authentication.
 3. **Viewsets:** Combines the logic for a set of related views in a single class.
 4. **Browsable API:** Provides a web browsable API, which is a huge win for developer usability.
 
@@ -182,7 +183,7 @@ const timelineEvents = ref([
   {
     title: 'Expo Production Started',
     date: 'Early June 2024',
-    description: 'Description of event 2',
+    description: 'Started to implement native version of LiftJourn',
   },
   {
     title: 'Integrated ChatGPT API',
