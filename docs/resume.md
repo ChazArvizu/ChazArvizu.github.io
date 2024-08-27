@@ -19,12 +19,12 @@ September 2018 - December 2023
 
 ## Projects
 **[LiftJourn - Full Stack Mobile Application](/projects/liftjourn.md)**
-- Developed a full-stack web application using Django and Vue.js, incorporating features such as user authentication, exercise tracking, and workout routine management.
-- Implemented RESTful APIs with Django REST framework for frontend to backend communication between Django web server and a static Vue.js frontend.
-- Utilized DigitalOcean App platform to deploy and manage the LiftJourn Application.
+- Developed a full-stack application using Django REST framework and Expo, incorporating features such as user authentication, exercise tracking, and workout routine management.
+- Integrated OpenAI API to provide personalized user experiences, leveraging GPT model to recommend tailored workout routines based on user preferences and performance data.
+- Deployed and managed the application on DigitalOcean App platform.
 - Overcame technical challenges such as user authentication via Json Web Tokens and securely handling them, demonstrating problem-solving skills and technical expertise.
 
-**[Senior Design Class - Gym Rat - Mobile/Web App](./projects/gymrat.md)**
+**[Senior Design Class - Gym Rat - Mobile/Web App](./projects/gymrat.md)** 
 - Created a mobile app using Flutter and Firebase for iOS and Android platforms.
 - Practiced agile development with SCRUM methodology and managed sprints and issues in the project management software JIRA.
 - Collaborated with team members to tackle challenges and divide tasks effectively.

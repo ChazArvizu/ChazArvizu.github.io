@@ -108,6 +108,7 @@ export default {
     color: red;
     overflow: hidden;
     position: relative;
+    border-radius: 5px;
 }
 
 #title {
@@ -139,12 +140,14 @@ export default {
 .restart-button {
     border: 2px solid red;
     border-color: red;
+    border-radius: 5px;
     background-color: black;
     color: red;
     font-family: 'Benguiat';
     padding: 10px 20px;
     cursor: pointer;
     margin-top: 10px;
+    font-size: small;
 }
 
 @media (max-width: 767px) {

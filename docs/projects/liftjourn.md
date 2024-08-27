@@ -143,10 +143,19 @@ I used their app platform to deploy my application, following the [Django docume
 Version control system. All my code is uploaded to a private GitHub repository.
 
 ### Gmail API 
-Liftjourn utilizes a Google Cloud service account to impersonate a noreply email for user email validation.
+Liftjourn utilizes a Google Cloud service account to impersonate a noreply email for user email validation when a user registers. Securities such as SPF, DKIM and DMARC records have been implemented to help prevent third parties from sending an email from my domain.
+
+#### SPF 
+Sender Policy Framework, tells what servers are able to send emails on behalf of my domain.
+
+#### DKIM
+Domain Keys Identified Mail, allows for me to sign every message that is sent from my mail server with a private key, which is then checked with the public key stored in the DNS record to ensure I was the one actually sending the message.
+
+#### DMARC
+Domain-based Message Authentication Reporting and Conformance, tells what should happen to a message if it doesn't PASS the SPF and DKIM checks. I currently have mine set to the most strict level, which rejects any message that doesn't pass both SPF and DKIM.
 
 ### Namecheap
-Namecheap offers domain registration, hosting, and other services at a fair price.
+Namecheap offers domain registration, hosting, and other services at a fair price. Namecheap also has a great user interface and tools for managing DNS records, which makes the process much more intuitive.
 
 ## Features
 - User authentication and authorization
@@ -191,9 +200,14 @@ const timelineEvents = ref([
     description: 'AI functionalities of app working',
   },
   {
-    title: 'Optimizing Frontend & Backend Code',
+    title: 'Cleaning Frontend & Backend Code',
     date: 'August 2024',
-    description: 'Cleaning up the codebase',
+    description: 'Cleaning up the codebase before beta release',
+  },
+  {
+    title: 'Gather Feedback From Beta Testers',
+    date: 'Projected: September 2024',
+    description: 'Implement any feedback I receive from my beta testers',
   },
 ])
 </script>
