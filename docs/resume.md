@@ -19,15 +19,21 @@ September 2018 - December 2023
 
 ## Projects
 **[LiftJourn - Full Stack Mobile Application](/projects/liftjourn.md)**
-- Developed a full-stack application using Django REST framework and Expo, incorporating features such as user authentication, exercise tracking, and workout routine management.
+
+[Available on the iOS App Store](https://apps.apple.com/us/app/liftjourn/id6588801960?platform=iphone)
+- Released a full-stack application using Django REST framework and Expo on the iOS app store, incorporating features such as AI enhanced exercise tracking, and social features.
 - Integrated OpenAI API to provide personalized user experiences, leveraging GPT model to recommend tailored workout routines based on user preferences and performance data.
 - Deployed and managed the application on DigitalOcean App platform.
-- Overcame technical challenges such as user authentication via Json Web Tokens and securely handling them, demonstrating problem-solving skills and technical expertise.
+- Implemented caching strategies using Redis to enhance API and database performance, reducing response times and improving user experience.
+
+**[LiftJourn - Informational Website](https://www.liftjourn.com/)**
+
+- Designed and developed an informational website for the LiftJourn app using Nuxt.js, providing users with detailed insights into app features, updates, and benefits.
+- Utilized Nuxt.js and Tailwind CSS to create a responsive and visually appealing website, ensuring a seamless user experience across devices.
 
 **[Senior Design Class - Gym Rat - Mobile/Web App](./projects/gymrat.md)** 
-- Created a mobile app using Flutter and Firebase for iOS and Android platforms.
-- Practiced agile development with SCRUM methodology and managed sprints and issues in the project management software JIRA.
-- Collaborated with team members to tackle challenges and divide tasks effectively.
+- Created a mobile app using Flutter and Firebase for iOS and Android platforms on a team.
+- Practiced agile development with SCRUM methodology, managing sprints and tasks with JIRA to meet project deadlines
 
 ## Professional Experience
 **[Tau Beta PI - Engineering Honor Society](https://www.tbp.org/recruit/recruitHome.cfm) - Vice President**  

@@ -5,6 +5,9 @@
 ## Informational Website
 [www.liftjourn.com](https://www.liftjourn.com/) _Informational website for LiftJourn users. (Created using Nuxt.js)_
 
+## Apple App Store Link
+[LiftJourn on IOS](https://apps.apple.com/us/app/liftjourn/id6588801960?platform=iphone) _LifJourn on the Apple App Store_
+
 ## Project Milestones
 
 <TimeLine :events="timelineEvents" />
@@ -164,7 +167,7 @@ Namecheap offers domain registration, hosting, and other services at a fair pric
 - Social features for viewing friends' workouts
 
 ## Future Plans
-- Implement additional social features (view friends' profiles, add their routines to your routines)
+- Implement additional social features (view friends' profiles, challenge other friends)
 - Enhance workout tracking statistics analysis for premium users
 - Improve user interface and user experience with feedback from users
 
@@ -197,17 +200,22 @@ const timelineEvents = ref([
   {
     title: 'Integrated ChatGPT API',
     date: 'Mid June 2024',
-    description: 'AI functionalities of app working',
+    description: 'AI functionalities of app working, huge milestone',
   },
   {
     title: 'Cleaning Frontend & Backend Code',
     date: 'August 2024',
-    description: 'Cleaning up the codebase before beta release',
+    description: 'Cleaning up the codebase before beta release, adding caching for performance boost',
   },
   {
-    title: 'Gather Feedback From Beta Testers',
-    date: 'Projected: September 2024',
-    description: 'Implement any feedback I receive from my beta testers',
+    title: 'Gathered Feedback From Beta Testers',
+    date: 'Mid September 2024',
+    description: 'Implemented feedback I received from my beta testers (added features, bug patches, etc.)',
+  },
+  {
+    title: 'Released version 1.0.0 LiftJourn',
+    date: 'September 22, 2024',
+    description: 'Released LiftJourn on Apple App Store!',
   },
 ])
 </script>

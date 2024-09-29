@@ -17,6 +17,7 @@ Hello, my name is Chaz Arvizu, and I recently moved to Tennessee after graduatin
 ## Featured Projects
 <span style="font-size: 0.9em;">(Click on the project cards for more details)</span>
 
+### <span style="display:none; margin-top: 0px;">LiftJourn</span>
 <Card
   title="LiftJourn"
   description="LiftJourn is a native application that allows users to create workout routines, track their workouts, and view their friend's completed workouts. LiftJourn provides the user with an easy-to-use and convenient way to keep track of their workouts to see their progress over time. LiftJourn has both a free version and a premium version available to users. The premium version allows more functionality with AI and statistical analysis. I have designed and developed this application all as a solo developer, learning Django, Vue.js and Expo as I develop the application."
@@ -24,6 +25,7 @@ Hello, my name is Chaz Arvizu, and I recently moved to Tennessee after graduatin
   image="/technologies-collage-short.png"
 />
 
+### <span style="display:none; margin-top: 0px;">Gym Rat</span>
 <Card
   title="Gym Rat"
   description="Gym Rat is a multi platform application that allows users to track both their meals and workouts in one convenient app. This application was developed with a team of five developers, including myself, in the time span of two semesters. We used the technologies Flutter and Firebase which helped to tremendously streamline our development process in creating a multi-platform application."
@@ -33,18 +35,21 @@ Hello, my name is Chaz Arvizu, and I recently moved to Tennessee after graduatin
 ## Live Browser Animations
 <span style="font-size: 0.9em;">(Click on the project cards to see more details)</span>
 
+### <span style="display:none; margin-top: 0px;">Lorenz Attractor</span>
 <Card
   title="Lorenz Attractor"
   description="I took inspiration to create this little animation from a youtuber by the name of Veritasium, as seen in his video about chaos theory. This video sparked my curiosity about chaos theory and how small changes to the inputs of an equation can drastically change the output of a system. This sort of behavior is present in our everyday life and takes the shape of whatever decisions we make, whether they are big or small. Our decisions are what define us, and chaotic equations offer a special way of mapping such behavior."
   link="./visuals/lorenz.md"
 />
 
+### <span style="display:none; margin-top: 0px;">Solar System Simulation</span>
 <Card
   title="Solar System Simulation"
   description="I have always been fascinated with outer space and its limitless wonders. To capture some of this fascination, I decided to create an interactive solar system simulation. I followed an excellent tutorial on youtube. The tutorial provided the necessary JavaScript for the simulation, but additional steps were required to integrate it into VuePress 2."
   link="./visuals/solarsystem.md"
 />
 
+### <span style="display:none; margin-top: 0px;">Stranger Things Intro</span>
 <Card
   title="Stranger Things Intro"
   description="Stranger Things is one of my favorite shows of all time, which is what inspired me to make this animation. The title sequence for Stranger Things is also one of my favorites for any show I've watched. I like the science fiction/horror aspect of the series and how you're constantly on your toes, wondering what could happen next. My favorite season is season 3 which is when my favorite characters, Steve, shows most of his growth as a character."
