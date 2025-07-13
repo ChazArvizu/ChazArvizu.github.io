@@ -36,9 +36,11 @@ if (fs.existsSync(CNAME_FILE)) {
 }
 
 // Switch to deploy branch
+console.log(`Checking out ${DEPLOY_BRANCH}`)
 run(`git checkout ${DEPLOY_BRANCH}`);
 
 // Remove old files from deploy branch
+console.log("Removing old files...")
 run(`git rm -rf .`);
 
 // Copy new files from temp folder into root
