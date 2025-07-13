@@ -41,7 +41,7 @@ run(`git checkout ${DEPLOY_BRANCH}`);
 
 // Remove old files from deploy branch
 console.log("Removing old files...")
-run(`git rm -rf .`);
+run(`git rm -rf *`);
 
 // Copy new files from temp folder into root
 run(`xcopy "${path.resolve(TEMP_DIR)}\\*" ".\\" /E /I /Y`);
