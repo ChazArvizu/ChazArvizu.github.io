@@ -1,0 +1,30 @@
+{
+  "name": "chazarvizu.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs && copy CNAME docs\\.vuepress\\dist\\CNAME"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.9",
+    "@vuepress/plugin-back-to-top": "^2.0.0-rc.37",
+    "@vuepress/plugin-register-components": "^2.0.0-rc.21",
+    "@vuepress/plugin-search": "^2.0.0-rc.37",
+    "@vuepress/theme-default": "^2.0.0-rc.26",
+    "vuepress": "^2.0.0-rc.9"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "gsap": "^3.12.5",
+    "p5": "^1.9.3",
+    "three": "^0.164.1"
+  }
+}
