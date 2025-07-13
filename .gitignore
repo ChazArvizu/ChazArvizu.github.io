@@ -1,7 +1,0 @@
-# Ignore VuePress temporary directories
-.vuepress/.temp
-.vuepress/.cache
-.vuepress/dist
-
-# Ignore Node.js modules
-node_modules
