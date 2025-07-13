@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs && copy CNAME docs\\.vuepress\\dist\\CNAME"
+    "docs:build": "vuepress build docs && copy CNAME docs\\.vuepress\\dist\\CNAME",
+    "docs:deploy": "npm run docs:build && node deploy.js"
   },
   "author": "",
   "license": "ISC",
