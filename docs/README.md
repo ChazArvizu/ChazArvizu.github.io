@@ -14,6 +14,11 @@ Hello, my name is Chaz Arvizu, and I recently moved to Tennessee after graduatin
   - Spring 2022: Deans' List
   - Fall 2022: Initiated into [Tau Beta Pi - Engineering Honor Society](https://www.tbp.org/recruit/recruitHome.cfm)
 
+## Certifications
+You can view my certifications on [Credly](https://www.credly.com/users/chaz-arvizu)
+- Google Cloud Platform Associate Cloud Engineer
+- Preofessional Scrum Developer
+
 ## Featured Projects
 <span style="font-size: 0.9em;">(Click on the project cards for more details)</span>
 

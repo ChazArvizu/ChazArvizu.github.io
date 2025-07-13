@@ -17,13 +17,17 @@ export default defineUserConfig({
     logo: '/babyduck.svg',
 
     navbar: [
-      { text: 'Home', link: '/' },
-      { text: 'Resume', link: '/resume.md' },
+      { 
+        text: 'Home', 
+        link: '/' 
+      },
+      { text: 'Resume', 
+        link: '/resume.md' 
+      },
       {
         text: 'Projects',
         children: [
           '/projects/liftjourn.md',
-          '/projects/mealapp.md',
           '/projects/gymrat.md',
         ],
       },
@@ -34,6 +38,10 @@ export default defineUserConfig({
           '/visuals/solarsystem.md',
           '/visuals/strangerthingsintro.md',
         ],
+      },
+      {
+        text: 'Hiking Gallery',
+        link: '/hiking.md',
       },
     ],
 
