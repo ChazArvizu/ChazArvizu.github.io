@@ -6,6 +6,9 @@ hero:
   name: "Chaz Arvizu"
   text: "Software Engineer"
   tagline: My great project tagline
+  # image:
+  #   src: /logo.png
+  #   alt: VitePress
   actions:
     - theme: brand
       text: Markdown Examples
