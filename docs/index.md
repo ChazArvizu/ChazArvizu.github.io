@@ -5,17 +5,15 @@ layout: home
 hero:
   name: "Chaz Arvizu"
   text: "Software Engineer"
-  tagline: My great project tagline
-  # image:
-  #   src: /logo.png
-  #   alt: VitePress
+  tagline: "From code sprints to trail hikes"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Resume
+      link: /resume
+    - theme: brand
+      text: Personal Projects
+      link: /projects
+    
 
 features:
   - title: Feature A

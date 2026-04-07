@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Chaz's Coding Portfolio",
   description: "Software Engineer",
+  base: '/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -12,19 +13,9 @@ export default defineConfig({
       { text: 'Projects', link: '/projects' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ChazArvizu' },
-      { icon: 'linkedin', link: 'https://github.com/ChazArvizu' }
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/chaz-arvizu-11816b2a2/' }
     ]
   }
 })
