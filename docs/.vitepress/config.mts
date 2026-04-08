@@ -15,15 +15,14 @@ export default defineConfig({
         text: 'Projects',
         items: [
           {
-            text: 'Mobile Apps', items: [
+            text: 'Mobile App', items: [
               { text: 'LiftJourn', link: '/projects/liftjourn' },
-              { text: 'Another App', link: '/projects/another-app' },
             ]
           },
           {
-            text: 'Archived / School', items: [
-              { text: 'School Project', link: '/projects/school-project' },
-              { text: 'Old App', link: '/projects/old-app' },
+            text: 'Experiments & Visuals', items: [
+              { text: 'Lorenz Attractor', link: '/projects/school-project' },
+              { text: 'Solar System Simulator', link: '/projects/old-app' },
             ]
           }
         ]
